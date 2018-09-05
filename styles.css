@@ -1,0 +1,84 @@
+.container {
+  margin: 0 auto;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.top {
+  text-align: center;
+  margin-bottom: 50px;
+}
+h1 {
+  margin-bottom: 40px;
+  color: #EE7674;
+  text-transform: uppercase;
+}
+h2 {
+  margin-top: 0;
+  font-weight: 400;
+}
+h3 {
+  color: #EE7674;
+}
+img {
+  width: 300px;
+}
+.services {
+  background-color: #75B9BE;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 40px;
+  color: #FFF;
+}
+.services h2 {
+  margin-bottom: 0;
+}
+.services ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+.services ul li {
+  padding: 0 10px;
+  flex: 1;
+}
+.projects {
+  margin: 40px 20px;
+}
+.projects h2 {
+  margin-bottom: 30px;
+}
+.contact {
+  text-align: center;
+  background-color: #75B9BE;
+  padding: 20px;
+}
+.contact h2 {
+  margin-bottom: 0;
+  color: #FFF;
+}
+.contact p a {
+  color: #FFF;
+}
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.contact li {
+  background-color: #EE7674;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+}
+.contact li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .services ul {
+    display: block;
+  }
+}
